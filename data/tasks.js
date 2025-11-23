@@ -671,7 +671,7 @@ export const tasksData = [
     source: "matematyka-2016-maj-matura-podstawowa.pdf",
     title: "Zadanie 22. (1 pkt)",
     question:
-      "Rzucamy dwa razy symetryczną sześcienną kostką do gry. Prawdopodobieństwo otrzymania\nsumy oczek równej trzy wynosi\nA. 1/6\n\nB. 1/9\n\nC. 1/12\n\nD. 1/18",
+      "DUPLIKAT - Rzucamy dwa razy symetryczną sześcienną kostką do gry. Prawdopodobieństwo otrzymania\nsumy oczek równej trzy wynosi\nA. 1/6\n\nB. 1/9\n\nC. 1/12\n\nD. 1/18",
     answer: "1/18",
     solution: "Jak wcześniej: suma 3 powstaje w dwóch parach, więc 1/18.",
     year: 2016,
@@ -872,7 +872,7 @@ export const tasksData = [
     source: "matematyka-2020-czerwiec-matura-stara-podstawowa.pdf",
     title: "Zadanie 25. (0–1)",
     question:
-      "W pudełku jest 40 kul. Wśród nich jest 35 kul białych, a pozostałe to kule czerwone.\nPrawdopodobieństwo wylosowania każdej kuli jest takie samo. Z pudełka losujemy jedną\nkulę. Prawdopodobieństwo zdarzenia polegającego na tym, że otrzymamy kulę czerwoną, jest\nrówne\nA. 1/8\n\nB. 1/5\n\nC. 1/40\n\nD. 1/35",
+      "DUPLIKAT - W pudełku jest 40 kul. Wśród nich jest 35 kul białych, a pozostałe to kule czerwone.\nPrawdopodobieństwo wylosowania każdej kuli jest takie samo. Z pudełka losujemy jedną\nkulę. Prawdopodobieństwo zdarzenia polegającego na tym, że otrzymamy kulę czerwoną, jest\nrówne\nA. 1/8\n\nB. 1/5\n\nC. 1/40\n\nD. 1/35",
     answer: "1/8",
     solution: "Treść identyczna jak w arkuszu czerwcowym – wynik to 1/8.",
     year: 2020,
@@ -1180,7 +1180,7 @@ export const tasksData = [
     source: "matematyka-2024-maj-matura-stara-podstawowa.pdf",
     title: "Zadanie 29. (0–1)",
     question:
-      "Wszystkich liczb naturalnych trzycyfrowych parzystych, w których zapisie dziesiętnym\nwystępuje dokładnie jeden raz cyfra 0, jest\nA. 108\n\nB. 117\n\nC. 126\n\nD. 162",
+      "DUPLIKAT - Wszystkich liczb naturalnych trzycyfrowych parzystych, w których zapisie dziesiętnym\nwystępuje dokładnie jeden raz cyfra 0, jest\nA. 108\n\nB. 117\n\nC. 126\n\nD. 162",
     answer: "117 liczb",
     solution: "Treść pokrywa się z nową podstawą – wynik pozostaje 117.",
     year: 2024,
@@ -1191,7 +1191,7 @@ export const tasksData = [
     source: "matematyka-2024-maj-matura-stara-podstawowa.pdf",
     title: "Zadanie 35. (0–2)",
     question:
-      "Ze zbioru pięciu liczb {1, 2, 3, 4, 5} losujemy bez zwracania kolejno dwa razy po jednej\nliczbie.\nOblicz prawdopodobieństwo zdarzenia 𝑨 polegającego na tym, że obie wylosowane\nliczby są nieparzyste. Zapisz obliczenia.",
+      "DUPLIKAT - Ze zbioru pięciu liczb {1, 2, 3, 4, 5} losujemy bez zwracania kolejno dwa razy po jednej\nliczbie.\nOblicz prawdopodobieństwo zdarzenia 𝑨 polegającego na tym, że obie wylosowane\nliczby są nieparzyste. Zapisz obliczenia.",
     answer: "3/10",
     solution: "Analogiczne losowanie bez zwracania – 3/10.",
     year: 2024,
@@ -1226,7 +1226,7 @@ export const tasksData = [
     source: "matematyka-2025-maj-matura-podstawowa.pdf",
     title: "Zadanie 30. (0–2)",
     question:
-      "Ze zbioru ośmiu liczb {2, 3, 4, 5, 6, 7, 8, 9} losujemy ze zwracaniem kolejno dwa razy po\njednej liczbie.\nOblicz prawdopodobieństwo zdarzenia 𝑨 polegającego na tym, że iloczyn\nwylosowanych liczb jest podzielny przez 𝟏𝟓. Zapisz obliczenia.",
+      "DUPLIKAT - Ze zbioru ośmiu liczb {2, 3, 4, 5, 6, 7, 8, 9} losujemy ze zwracaniem kolejno dwa razy po\njednej liczbie.\nOblicz prawdopodobieństwo zdarzenia 𝑨 polegającego na tym, że iloczyn\nwylosowanych liczb jest podzielny przez 𝟏𝟓. Zapisz obliczenia.",
     answer: "3/32",
     solution:
       "Arkusz powtarza zadanie o iloczynie podzielnym przez 15 – wynik 3/32.",
@@ -1238,7 +1238,7 @@ export const tasksData = [
     source: "matematyka-2025-maj-matura-stara-podstawowa.pdf",
     title: "Zadanie 31. (0–2)",
     question:
-      "Ze zbioru pięciu liczb {1, 2, 3, 4, 5} losujemy bez zwracania kolejno dwa razy po jednej\nliczbie.\nOblicz prawdopodobieństwo zdarzenia 𝑨 polegającego na tym, że obie wylosowane\nliczby są nieparzyste. Zapisz obliczenia.",
+      "DUPLIKAT - Ze zbioru pięciu liczb {1, 2, 3, 4, 5} losujemy bez zwracania kolejno dwa razy po jednej\nliczbie.\nOblicz prawdopodobieństwo zdarzenia 𝑨 polegającego na tym, że obie wylosowane\nliczby są nieparzyste. Zapisz obliczenia.",
     answer: "3/10",
     solution:
       "To samo losowanie dwóch liczb nieparzystych z {1,…,5} bez zwracania – 3/10.",
@@ -1250,7 +1250,7 @@ export const tasksData = [
     source: "matematyka-2025-maj-matura-stara-podstawowa.pdf",
     title: "Zadanie 35. (0–2)",
     question:
-      "Ze zbioru ośmiu liczb {2, 3, 4, 5, 6, 7, 8, 9} losujemy ze zwracaniem kolejno dwa razy po\njednej liczbie.\nOblicz prawdopodobieństwo zdarzenia 𝑨 polegającego na tym, że iloczyn\nwylosowanych liczb jest podzielny przez 𝟏𝟓. Zapisz obliczenia.",
+      "DUPLIKAT - Ze zbioru ośmiu liczb {2, 3, 4, 5, 6, 7, 8, 9} losujemy ze zwracaniem kolejno dwa razy po\njednej liczbie.\nOblicz prawdopodobieństwo zdarzenia 𝑨 polegającego na tym, że iloczyn\nwylosowanych liczb jest podzielny przez 𝟏𝟓. Zapisz obliczenia.",
     answer: "3/32",
     solution:
       "Powtórzenie zadania o iloczynie podzielnym przez 15 ze zbioru {2,…,9}. Warunek spełniają tylko pary zawierające 5 i jedną z liczb 3,6,9 – 6 wyników z 64.",
