@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadania z prawdopodobieństwa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="header-content">
+        <div>
+          <p class="eyebrow">Repozytorium arkuszy</p>
+          <h1>Zadania z prawdopodobieństwa</h1>
+          <p class="subheading">
+            Ponad setka zadań z arkusza <code>zadania_prawdopodobienstwo.txt</code> – każde z
+            kompletnym rozwiązaniem i odpowiedzią. Skorzystaj z filtrów, aby szybko znaleźć
+            interesujące Cię zadania.
+          </p>
+        </div>
+        <div class="stats-panel" id="stats-panel"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="filters" aria-label="Filtry">
+        <div class="filter-group search-group">
+          <label for="search-box">Szukaj w treści lub rozwiązaniu</label>
+          <div class="search-wrapper">
+            <input
+              type="search"
+              id="search-box"
+              placeholder="np. losujemy dwie kule"
+              autocomplete="off"
+            />
+            <button type="button" id="clear-search" aria-label="Wyczyść wyszukiwanie">
+              ✕
+            </button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label for="year-filter">Rok</label>
+          <select id="year-filter">
+            <option value="all">Wszystkie lata</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="status-filter">Status rozwiązania</label>
+          <select id="status-filter">
+            <option value="all">Wszystkie</option>
+            <option value="complete">Pełne rozwiązanie</option>
+            <option value="needs-data">Brak danych w pliku</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="sort-order">Sortowanie</label>
+          <select id="sort-order">
+            <option value="year-desc">Najpierw nowsze</option>
+            <option value="year-asc">Najpierw starsze</option>
+            <option value="alpha">Alfabetycznie (źródło)</option>
+          </select>
+        </div>
+      </section>
+
+      <section id="results-info"></section>
+
+      <section id="tasks-list" class="tasks-list" aria-live="polite"></section>
+    </main>
+
+    <template id="task-template">
+      <article class="task-card">
+        <header>
+          <div>
+            <p class="task-source"></p>
+            <h2 class="task-title"></h2>
+          </div>
+          <div class="task-pills">
+            <span class="task-status dataset-status"></span>
+            <span class="task-status progress-status"></span>
+          </div>
+        </header>
+        <p class="task-question"></p>
+        <div class="solution-block">
+          <button class="toggle-solution" type="button">Pokaż rozwiązanie</button>
+          <div class="solution-content" hidden>
+            <p class="task-answer"></p>
+            <p class="task-solution"></p>
+          </div>
+        </div>
+        <div class="task-progress">
+          <label>
+            Status pracy
+            <select class="progress-select">
+              <option value="todo">Do zrobienia</option>
+              <option value="in-progress">W trakcie</option>
+              <option value="done">Zrobione</option>
+              <option value="skipped">Pominięte</option>
+            </select>
+          </label>
+        </div>
+      </article>
+    </template>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
